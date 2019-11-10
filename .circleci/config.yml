@@ -1,8 +1,6 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/code
-  test:
     docker:
       - image: circleci/android:api-28-alpha  # gcloud is baked into this image
     steps:
